@@ -1,0 +1,52 @@
+<html>
+	<body>
+		<tr><td><b>What kind of car would you like to buy?</b></td></tr><br><br>
+		<tr>
+			<td>
+				<form action="">
+					<input type="radio" name="car" value="proton" checked>Proton
+					<input type="radio" name="car" value="honda">Honda
+					<input type="radio" name="car" value="ferrari">Ferrari
+					<input type="radio" name="car" value="ford">Ford
+				</form>
+			</td>
+		</tr>
+		
+		<tr><td><b>What colour do you want on your car?</b></td></tr><br><br>
+		<tr>
+			<td>
+				&nbsp&nbsp&nbsp&nbsp<select>
+  					<option value="white">White</option>
+  					<option value="red">Red</option>
+  					<option value="black" selected>Black</option>
+  					<option value="blue">Black</option>
+				</select>
+				Other:<input type="text" name="other"><br>
+			</td>
+		</tr><br>
+		<tr><td><b>Enter your preferred car:</b></td></tr><br>
+		<tr>
+			<td>
+				<textarea rows="4" cols="50">
+				
+				
+				</textarea>
+			</td>
+		</tr><br>
+		<tr><td><b>Tell us how to get in touch with you:</b></td></tr><br><br>
+		<tr><td>&nbsp&nbsp&nbsp&nbspName: &nbsp<input type="text" name="name" value=""><br></td></tr>
+		<tr><td>&nbsp&nbsp&nbsp&nbspE-mail:&nbsp<input type="text" name="email" value=""><br></td></tr>
+		<tr><td>&nbsp&nbsp&nbsp&nbspTel: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="tel" value=""><br></td></tr>
+		<tr><td>&nbsp&nbsp&nbsp&nbspFAX: &nbsp&nbsp&nbsp&nbsp<input type="text" name="fax" value=""><br></td></tr>
+		<tr>
+			<td>
+				<form action="">
+					<input type="checkbox" name="contact" value="contact">Please contact me as soon as possible regarding this matter.<br>
+ 				</form>
+			</td>
+		</tr><br>
+		<tr><td><input type="submit" value="Send"><input type="reset" value="Clear"></td></tr><br>
+		
+	</body>
+
+</html>
